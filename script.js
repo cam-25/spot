@@ -30,6 +30,7 @@ function displaySpots(spot){
     </div>`;
     display.insertAdjacentHTML("beforeend", vacationSpot);
 }
+
 spots.forEach(spot=>{ displaySpots(spot);
 });
 
